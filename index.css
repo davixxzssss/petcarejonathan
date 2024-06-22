@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'monserrat extrabold';
+    width: 100%; 
+    height: 100%;
+    background-size: cover;
+    font-size: 35px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #e7e7e7;
+    background-color:#cafff6 ;
+}
+
+
+
+
+nav {
+    flex-grow: 5;
+    text-align: right;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #007bff;
+}
+
+
+@font-face{
+    font-family:'monserrat extrabold';
+    src:url(../fuentes/static/Montserrat-ExtraBold.ttf);
+    font-weight:bold;
+    font-style: bold;
+    color:blue;
+}
+
+@font-face{
+    font-family:'nunito sans italic';
+    src:url(../fuentes/nunito-sans/NunitoSans-Italic.ttf);
+    font-weight:italic ;
+    font-style: italic;
+    color: white;}
+
+    .titulo{
+        font-family:'Monserrat extrabold' ;
+        font-weight: bold;
+        font-size: 62px;
+        color: white;
+        
+    }
+    .posicion {
+        padding: 130px;
+    } 
+    
+    h3 { 
+        font-family: 'Nunito sans italic';
+        font-weight: italic;
+        font-size: 36px;
+        text-align: center  ;
+        color: white;
+       
+    }
+
+    
+     
+    .imagenhome {
+        justify-content: space-between;
+        width: 100%; 
+
+  height: 1080px; 
+    }
+
+    .imagenhome img {
+       
+        width: 100%; 
+
+  height: 100%; 
+
+  
+    }
+
+
+    .fondo {
+
+        display: flex;
+      
+        flex-wrap: wrap;
+      
+        justify-content: space-between;
+      
+        background-color: #82decd; 
+      
+        padding: 100px; 
+      
+      }
+      
+      
+      .titulo-texto {
+        color: white;
+      
+        flex-basis: 50%; 
+      
+        display: flex;
+      
+        flex-direction: column; 
+      
+      }
+      .titulo-textoh1 
+      {
+        text-align: center;
+        margin-top: 120px;
+        color: white;
+
+      }
+      .porque {
+        color: white;
+      }
+      
+      
+      .titulo-texto h3 {
+      
+        margin-bottom: 50px; 
+        font-family: 'nunito sans italic';
+        font-size: 25px;
+      
+      }
+      
+      
+      .imagen {
+      
+        flex-basis: 50%; 
+      
+        text-align: right; 
+      
+      }
+      
+      
+      .imagen img {
+      
+       width:600px ;
+       height: 800px;
+      
+        object-fit: cover; 
+        margin-top: 10px;
+      
+      }
+
+
+      .servicios {
+
+        width: 100%; 
+      
+        height: 100vh; 
+      
+        display: flex; 
+      
+        justify-content: center; 
+      
+        align-items: center; 
+      
+      }
+      
+      
+      .servicios img {
+      
+        max-width: 100%; 
+      
+        height: auto; 
+      
+        object-fit: cover; 
+      
+      }
+
+
+      .imagen img {
+        width: 1000px; ;
+        height: 800px; ;
+        margin-right: 400px;
+        margin-bottom: 80px;
+
+
+
+
+
+
+
+        
+      }
+
+
+      footer {
+
+        background-color: #333; 
+
+        color: #FFFFFF; 
+      
+        padding: 20px; 
+      
+        text-align: center; 
+      
+        clear: both; 
+       
+
+        margin-top: 500px;
+      }
+      
+      
+      footer.container {
+      
+        max-width: 800px; 
+      
+        margin: 0 auto; 
+      
+        padding: 20px; 
+      
+      }
+      
+      
+      footer ul {
+      
+        list-style: none; 
+      
+        margin: 0; 
+      
+        padding: 0; 
+      
+        display: flex; 
+      
+        justify-content: center; 
+      
+      }
+      
+      
+      footer li {
+      
+        margin-right: 20px; 
+      
+      }
+      
+      
+      footer a {
+      
+        color: #FFFFFF; 
+      
+        text-decoration: none; 
+      
+      }
+      
+      
+      footer a:hover {
+      
+        color: #CCCCCC; 
+      
+      }
+
+
+
+
+     
+ 
+
+
+
+
+
+
+
+      
+
+      

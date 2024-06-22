@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'monserrat extrabold';
+    width: 100%; 
+    height: 100%;
+    background-image: url(../Img/Fondo\ servicios.png);
+    background-size: cover;
+    font-size: 35px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #cafff6;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+
+
+
+nav {
+    flex-grow: 5;
+    text-align: right;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #007bff;
+}
+
+
+@font-face{
+    font-family:'monserrat extrabold';
+    src:url(../fuentes/static/Montserrat-ExtraBold.ttf);
+    font-weight:bold;
+    font-style: bold;
+    color:blue;
+}
+
+@font-face{
+    font-family:'nunito sans italic';
+    src:url(../fuentes/nunito-sans/NunitoSans-Italic.ttf);
+    font-weight:italic ;
+    font-style: italic;
+    color: white;}
+
+
+    .contenedor3 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 120px;
+      }
+      
+      .imagen3 {
+        width: 30%; /* ajusta el ancho de la imagen */
+        margin-right: 70px;
+        margin-left: 150px; /* espacio entre la imagen y el texto */
+      }
+      
+      .texto3 {
+        flex: 1;
+        margin-top: 10px; /* ocupa el espacio restante */
+        text-align: center;
+        margin-bottom: 100px;
+        margin-right: 120PX;
+        
+    
+      }
+      .texto3 h3 {
+        font-family:'nunito sans italic';
+        font-size: 25px;
+        color: white;
+      }
+    
+      .texto3 h1 {
+        margin-bottom: 20px;
+      font-family: 'monserrat extrabold';
+    font-size: 62px;
+    color: white;  }
+
+    .contenedor4 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 120px;
+      }
+      
+      .imagen4 {
+        width: 30%; /* ajusta el ancho de la imagen */
+        margin-right: 70px;
+        margin-left: 150px; /* espacio entre la imagen y el texto */
+      }
+      
+      .texto4 {
+        flex: 1;
+        margin-top: 10px; /* ocupa el espacio restante */
+        text-align: center;
+        margin-bottom: 100px;
+        margin-right: 120PX;
+        
+    
+      }
+      .texto4 h3 {
+        font-family:'nunito sans italic';
+        font-size: 25px;
+        color: white;
+      }
+    
+      .texto4 h1 {
+        margin-bottom: 20px;
+      font-family: 'monserrat extrabold';
+    font-size: 62px;
+    color: white;  }
+
+    .contenedor5 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 120px;
+      }
+      
+      .imagen5 {
+        width: 30%; /* ajusta el ancho de la imagen */
+        margin-right: 70px;
+        margin-left: 150px; /* espacio entre la imagen y el texto */
+      }
+      
+      .texto5 {
+        flex: 1;
+        margin-top: 10px; /* ocupa el espacio restante */
+        text-align: center;
+        margin-bottom: 100px;
+        margin-right: 120PX;
+        
+    
+      }
+      .texto5 h3 {
+        font-family:'nunito sans italic';
+        font-size: 25px;
+        color: white;
+      }
+    
+      .texto5 h1 {
+        margin-bottom: 20px;
+      font-family: 'monserrat extrabold';
+    font-size: 62px;
+    color: white;  }
+
+
+    .contenedor1 {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .contenedor1 h1 {
+        font-family: 'monserrat extrabold';
+        font-size: 62px;
+        color: white;  }
+
+    .contenedor1 h3 {
+        font-family:'nunito sans italic';
+        font-size: 25px;
+        color: white;
+        margin-left:120px;
+        margin-right:120px;
+        margin-top: 80px;
+
+    }
+
+
+
+
+    footer {
+
+      background-color: #333; 
+
+      color: #FFFFFF; 
+    
+      padding: 20px; 
+    
+      text-align: center; 
+    
+      clear: both; 
+     
+
+      margin-top: 500px;
+    }
+    
+    
+    footer.container {
+    
+      max-width: 800px; 
+    
+      margin: 0 auto; 
+    
+      padding: 20px; 
+    
+    }
+    
+    
+    footer ul {
+    
+      list-style: none; 
+    
+      margin: 0; 
+    
+      padding: 0; 
+    
+      display: flex; 
+    
+      justify-content: center; 
+    
+    }
+    
+    
+    footer li {
+    
+      margin-right: 20px; 
+    
+    }
+    
+    
+    footer a {
+    
+      color: #FFFFFF; 
+    
+      text-decoration: none; 
+    
+    }
+    
+    
+    footer a:hover {
+    
+      color: #CCCCCC; 
+    
+    }
